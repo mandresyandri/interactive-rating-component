@@ -1,9 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* Variable CSS */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgrey: hsl(217, 12%, 63%);
+    --mediumgrey: hsl(216, 12%, 54%);
+    --darkblue: hsl(213, 19%, 18%);
+    --verydarkblue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+/* Body setting */
+body {
+    background-color: var(--verydarkblue);
+    font-size: 15px;
+    font-family: overpass, serif;
+    /*font-family: sans-serif;*/
+}
+
+/* The main card */
+#main-content {
+    height: 450px;
+    width: 450px;
+    position: relative;
+    margin: auto;
+    transform: translateY(20%);
+    border-radius: 20px;
+    background-color: var(--darkblue);
+}
+
+/* SVG part */
+.first-icon {
+    width: 40px;
+    height: 40px;
+    background-color: hsl(216, 12%, 54%, 20%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 32px;
+    left: 32px
+}
+
+/* Ajusting the text content */
+h1:first-child {
+    color: var(--white);
+    position: relative;
+    left: 35px;
+    top: 40px;
+}
+
+p:last-child {
+    color: var(--lightgrey);
+    position: relative;
+    left: 35px;
+    top: 25px;
+    line-height: 1.7;
+    padding-right: 100px ;
+}
+
+.rating {
+    position: relative;
+    top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 32px;
+    padding-left: 17px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(216, 12%, 54%, 20%);
+    color: var(--lightgrey);
+
+}
+
+.submit-part {
+    position: relative;
+    top: 85px;
+    left: 35px;
+}
+
+.submit {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 370px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+
 /* CSS from Frontend Mentor */
 .attribution { 
     font-size: 11px;
     text-align: center;
+    position: relative;
+    margin: auto;
+    top: 15em;
+    color: var(--white);
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%);
+.attribution a {
+    color: var(--orange);
 }
