@@ -20,21 +20,24 @@
           to help us improve our offering!
         </p>
       </div>
+      <p id="selected" onclick="deleteText()"></p>
       <div class="rating">
-       <button class="one circle">1</button>
-        <button class="two circle">2</button>
-        <button class="three circle">3</button>
-        <button class="four circle">4</button>
-        <button class="five circle">5</button>
+        <button type="button"  onclick="getValueOne()" onmouseover="mouseOverOne()" onmouseout="mouseOutOne()" id="one" class="one circle" value="1">1</button>
+        <button type="button" onclick="getValueTwo()" onmouseover="mouseOverTwo()" onmouseout="mouseOutTwo()" id="two" class="two circle" value="2">2</button>
+        <button type="button" onclick="getValueThree()" onmouseover="mouseOverThree()" onmouseout="mouseOutThree()" id="three" class="three circle" value="3">3</button>
+        <button type="button" onclick="getValueFour()" onmouseover="mouseOverFour()" onmouseout="mouseOutFour()" id="four" class="four circle" value="4">4</button>
+        <button type="button" onclick="getValueFive()" onmouseover="mouseOverFive()" onmouseout="mouseOutFive()" id="five" class="five circle" value="5">5</button>
       </div>
       <div class="submit-part">
         <button class="submit">submit</button>
       </div>
     </div>
+
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/mandresyandri/" target="_blank" rel="nofollow">Mandresy Andri</a>.
     </div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
