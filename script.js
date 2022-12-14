@@ -111,4 +111,4 @@ function deleteText() {
     document.getElementById("selected").innerText = ``;
 }
 
-// Show other text
+// Show other the "Thank You" Page/Text ??
