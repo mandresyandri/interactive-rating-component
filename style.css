@@ -126,3 +126,34 @@ p:last-child {
     margin: auto;
     cursor: pointer;
 }
+
+.hero-image {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#boxedMessage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 30px;
+    border-radius: 50px;
+    top: 70px;
+    left: 130px;
+    color: var(--orange);
+    background-color: hsl(216, 12%, 54%, 20%);
+ }
+
+.second-page-h {
+    position: absolute;
+    top: 400px;
+    text-align: center;
+}
+
+.second-page-p {
+    text-align: center;
+}
