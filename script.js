@@ -112,7 +112,6 @@ function deleteText() {
 }
 
 // Show other the "Thank You" Page/Text ??
-myValues = ["1", "2", "3", "4", "5"];
 function newPage() {
     // Add an if statement to verify if element button was clicked;
     window.location.href = "thank-you.html";
