@@ -82,15 +82,8 @@ function mouseOutFive() {
 }
 
 // Get the values of button
-function getNewPage() {
-    let values = document.getElementsByTagName("input");
-    values.addEventListener("click", ()=>{
-        for (let i in values) {
-            window.location.href = "thank-you.html";
-            document.getElementById("boxedMessage").innerText = `${i.value}`;
-        }
-    })
-}
+
+
 
 // Show other the "Thank You" Page/Text ??
 // function newPage() {
