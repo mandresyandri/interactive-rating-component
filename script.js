@@ -82,37 +82,18 @@ function mouseOutFive() {
 }
 
 // Get the values of button
-function getValueOne() {
-    let firstValue = document.getElementById("one").value;
-    document.getElementById("selected").innerText = `You've selected ${firstValue}`;
-}
-
-function getValueTwo() {
-    let firstValue = document.getElementById("two").value;
-    document.getElementById("selected").innerText = `You've selected ${firstValue}`;
-}
-
-function getValueThree() {
-    let firstValue = document.getElementById("three").value;
-    document.getElementById("selected").innerText = `You've selected ${firstValue}`;
-}
-
-function getValueFour() {
-    let firstValue = document.getElementById("four").value;
-    document.getElementById("selected").innerText = `You've selected ${firstValue}`;
-}
-
-function getValueFive() {
-    let firstValue = document.getElementById("five").value;
-    document.getElementById("selected").innerText = `You've selected ${firstValue}`;
-}
-
-function deleteText() {
-    document.getElementById("selected").innerText = ``;
+function getNewPage() {
+    let values = document.getElementsByTagName("input");
+    values.addEventListener("click", ()=>{
+        for (let i in values) {
+            window.location.href = "thank-you.html";
+            document.getElementById("boxedMessage").innerText = `${i.value}`;
+        }
+    })
 }
 
 // Show other the "Thank You" Page/Text ??
-function newPage() {
-    // Add an if statement to verify if element button was clicked;
-    window.location.href = "thank-you.html";
-}
+// function newPage() {
+//     // Add an if statement to verify if element button was clicked;
+//     window.location.href = "thank-you.html";
+// }
