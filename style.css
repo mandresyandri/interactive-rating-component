@@ -80,7 +80,7 @@ body {
     padding-left: 17px;
 }
 
-.circle {
+.btn {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -88,6 +88,16 @@ body {
     background-color: hsl(216, 12%, 54%, 20%);
     color: var(--lightgrey);
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn:focus {
+    background-color: var(--lightgrey);
+    color: var(--white);
 }
 
 .submit-part {
@@ -106,7 +116,6 @@ body {
     background-color: var(--orange);
     color: var(--white);
 }
-
 
 /* CSS from Frontend Mentor */
 .attribution { 
@@ -128,15 +137,6 @@ body {
     cursor: pointer;
 }
 
-#selected {
-    color: var(--white);
-    position: relative;
-    top: 35px;
-    left: 40px;
-    margin: auto;
-    cursor: pointer;
-}
-
 .hero-image {
     position: relative;
     top: 40px;
@@ -149,11 +149,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 172px;
-    height: 30px;
+    width: 190px;
+    height: 45px;
     border-radius: 50px;
     top: 75px;
-    left: 130px;
+    left: 50%;
+    transform: translateX(-50%);
     color: var(--orange);
     background-color: hsl(216, 12%, 54%, 20%);
  }
@@ -163,6 +164,7 @@ body {
     color: var(--white);
     top: 90px;
     text-align: center;
+
 }
 
 .second-page-p {

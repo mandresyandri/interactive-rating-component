@@ -20,19 +20,16 @@
           to help us improve our offering!
         </p>
       </div>
-      <p id="selected" onclick="deleteText()"></p>
-      <form onsubmit="getNewPage()">
       <div class="rating">
-        <button type="button" onmouseover="mouseOverOne()" onmouseout="mouseOutOne()" id="one" class="one circle" value="1">1</button>
-        <button type="button" onmouseover="mouseOverTwo()" onmouseout="mouseOutTwo()" id="two" class="two circle" value="2">2</button>
-        <button type="button" onmouseover="mouseOverThree()" onmouseout="mouseOutThree()" id="three" class="three circle" value="3">3</button>
-        <button type="button" onmouseover="mouseOverFour()" onmouseout="mouseOutFour()" id="four" class="four circle" value="4">4</button>
-        <button type="button" onmouseover="mouseOverFive()" onmouseout="mouseOutFive()" id="five" class="five circle" value="5">5</button>
+        <button type="button" class="circle btn" value="1">1</button>
+        <button type="button" class="circle btn" value="2">2</button>
+        <button type="button" class="circle btn" value="3">3</button>
+        <button type="button" class="circle btn" value="4">4</button>
+        <button type="button" class="circle btn" value="5">5</button>
       </div>
       <div class="submit-part">
-        <button type="submit" class="submit">submit</button>
+        <button type="submit" id="submit-np" onclick="getNewPage()" class="submit">submit</button>
       </div>
-      </form>
     </div>
 
     <div class="attribution">
