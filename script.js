@@ -81,9 +81,19 @@ function mouseOutFive() {
     document.getElementById("four").style.color = "hsl(217, 12%, 63%)";
 }
 
+// hide the second
+document.getElementById("ThankYou").style.display = "none";
+
 // Get the values of button
-
-
+// function getNewPage() {
+const buttons = document.getElementsByTagName("button");
+// console.log(buttons);
+for (let i = 0; i < 5; i++) {
+    buttons[i].addEventListener("click", ()=>{
+        console.log(buttons[i].value);
+    })
+}
+// }
 
 // Show other the "Thank You" Page/Text ??
 // function newPage() {
