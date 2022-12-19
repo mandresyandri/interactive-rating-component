@@ -28,6 +28,16 @@ body {
     background-color: var(--darkblue);
 }
 
+#ThankYou {
+    height: 430px;
+    width: 430px;
+    position: relative;
+    margin: auto;
+    transform: translateY(20%);
+    border-radius: 20px;
+    background-color: var(--darkblue);
+}
+
 /* SVG part */
 .first-icon {
     width: 40px;
@@ -43,14 +53,14 @@ body {
 }
 
 /* Ajusting the text content */
-h1:first-child {
+.main-h {
     color: var(--white);
     position: relative;
     left: 35px;
     top: 45px;
 }
 
-p:last-child {
+.main-p {
     color: var(--lightgrey);
     position: relative;
     left: 35px;
@@ -70,7 +80,7 @@ p:last-child {
     padding-left: 17px;
 }
 
-.circle {
+.btn {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -78,6 +88,16 @@ p:last-child {
     background-color: hsl(216, 12%, 54%, 20%);
     color: var(--lightgrey);
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn:focus {
+    background-color: var(--lightgrey);
+    color: var(--white);
 }
 
 .submit-part {
@@ -96,7 +116,6 @@ p:last-child {
     background-color: var(--orange);
     color: var(--white);
 }
-
 
 /* CSS from Frontend Mentor */
 .attribution { 
@@ -118,15 +137,6 @@ p:last-child {
     cursor: pointer;
 }
 
-#selected {
-    color: var(--white);
-    position: relative;
-    top: 35px;
-    left: 40px;
-    margin: auto;
-    cursor: pointer;
-}
-
 .hero-image {
     position: relative;
     top: 40px;
@@ -139,21 +149,30 @@ p:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 172px;
-    height: 30px;
+    width: 190px;
+    height: 45px;
     border-radius: 50px;
-    top: 70px;
-    left: 130px;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
     color: var(--orange);
     background-color: hsl(216, 12%, 54%, 20%);
  }
 
 .second-page-h {
-    position: absolute;
-    top: 400px;
+    position: relative;
+    color: var(--white);
+    top: 90px;
     text-align: center;
+
 }
 
 .second-page-p {
     text-align: center;
+    color: var(--lightgrey);
+    position: relative;
+    top: 80px;
+    left: 45px;
+    line-height: 1.7;
+    padding-right: 90px;
 }
