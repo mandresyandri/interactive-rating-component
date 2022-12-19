@@ -7,9 +7,9 @@ I'm Mandresy ANDRIANTSOANAVALONA a New Technologies of Informations and Communic
 I'm playing with several languages :
 
 Python
-Front Stack (HTML, CSS, BootStrap)
-I'm learning JS (React)
-I will learn R
+Front Stack (`HTML`, `CSS`, `BootStrap`)
+I'm learning `JS` (`React`)
+I will learn `R`
 My target : Become a datascientist but I'm a web dev enthousiast.
 
 # About this repo
